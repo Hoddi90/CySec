@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "New note.md",
+                "file": "Testa þetta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "New note"
+              "title": "Testa þetta"
             }
           }
         ],
@@ -211,7 +211,7 @@
   },
   "active": "11bb503591568bc4",
   "lastOpenFiles": [
-    "Testa þetta.md",
-    "New note.md"
+    "New note.md",
+    "Testa þetta.md"
   ]
 }
