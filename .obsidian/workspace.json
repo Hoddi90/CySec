@@ -21,14 +21,14 @@
             "id": "24f8bbc69fe6c28a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Knowledge Base.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Knowledge Base"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -191,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
