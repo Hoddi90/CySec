@@ -1,0 +1,93 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "enableJs": false,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "Lecture Note",
+      "hidden": false,
+      "class": "",
+      "tooltip": "Click this to create a lecture note.",
+      "id": "button_lecture_note",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/Template-Lecture-Note.md",
+          "folderPath": "Lectures",
+          "fileName": "NewLecture",
+          "openNote": true
+        }
+      ],
+      "icon": "plus"
+    },
+    {
+      "label": "Online Resource",
+      "hidden": false,
+      "class": "",
+      "tooltip": "Click this to create online resource.",
+      "id": "button_online_resources",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/Template-Online-Resource.md",
+          "folderPath": "Online Resources Library",
+          "fileName": "NewResource",
+          "openNote": true
+        }
+      ],
+      "icon": "plus"
+    },
+    {
+      "label": "Tool and Command",
+      "hidden": false,
+      "class": "",
+      "tooltip": "Click this to create tool or command.",
+      "id": "button_tools",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/Template-Tool-Commands.md",
+          "folderPath": "Tools & Commands Compendium",
+          "fileName": "NewTool",
+          "openNote": true
+        }
+      ],
+      "icon": "plus"
+    },
+    {
+      "label": "Terminology",
+      "hidden": false,
+      "class": "",
+      "tooltip": "Click this to create terminology.",
+      "id": "button_terminology",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/Template-Terminology.md",
+          "folderPath": "Terminology Glossary",
+          "fileName": "NewTool",
+          "openNote": true
+        }
+      ],
+      "icon": "plus"
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}
