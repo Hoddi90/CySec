@@ -11,12 +11,7 @@ aliases:
 ---
 
 
-<%*
-//prompt for Online Resource
-const name = await tp.system.prompt("Enter Online Resource name");
-if (!name) return;
-await tp.file.rename(name);
-%>
+
 
 **URL:** [https://...]  
 
