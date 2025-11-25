@@ -1,1 +1,0 @@
-Here we can put our collective thoughts and prayers.
