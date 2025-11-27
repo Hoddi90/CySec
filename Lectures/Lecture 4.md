@@ -6,6 +6,8 @@ aliases:
 Keywords:
   - Process
   - Program
+  - address space
+  - virtual memory
 ---
 
 
@@ -20,7 +22,9 @@ Keywords:
 
 - [Program: Static instructions on disk.]
 - [Process: A program in execution ]
-- [Placeholder]
+- [Time Multiplexing: Scheduling different processes on the CPU]
+- [Space Multiplexing: dividing RAM and Disk space among processes and users.]
+- [POSIX = Portable Operating System Interface (the X is for Unix)]
 
 ---
 
