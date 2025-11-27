@@ -3,6 +3,9 @@ tags:
   - Category/Lecture-Notes
 aliases:
   - Lecture-Note
+Keywords:
+  - Process
+  - Program
 ---
 
 
