@@ -11,8 +11,6 @@ aliases:
 ---
 
 
-
-
 **URL:** [https://cve.org][https://cvedetails.com]  
 
 **Type:** [Database]  

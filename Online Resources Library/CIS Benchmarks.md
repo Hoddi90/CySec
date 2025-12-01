@@ -11,8 +11,6 @@ aliases:
 ---
 
 
-
-
 **URL:** [https://www.cisecurity.org/cis-benchmarks]  
 
 **Type:** [Docs / Tutorial / Database]  

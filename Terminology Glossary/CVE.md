@@ -5,7 +5,6 @@ aliases:
   - Terminoligy
 ---
 
-
 **Definition:**  Common Vulnerability and Exposure
 [A publicly accessible dictionary of known cybersecurity vulnerabilities , each assigned a unique identifier and describe security flaws in hardware and software]
 
