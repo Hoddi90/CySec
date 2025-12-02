@@ -13,13 +13,13 @@ aliases:
 
 **URL:** [https://cve.org][https://cvedetails.com]  
 
-**Type:** [Database]  
+**Type:** Database 
 
 **Brief Description:**  
-- [Maintains searchable database of CVE]
+- Maintains searchable database of CVE
 
 **Relevance to Course:**  
-- [Contains publicly disclosed weaknesses in computer related software]
+- Contains publicly disclosed weaknesses in computer related software
 
 **Keywords / Tags:**  
 `[networking]` `[malware]` `[privacy]` `[tools]`

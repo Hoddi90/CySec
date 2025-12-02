@@ -22,7 +22,18 @@ aliases:
 - GAP and LogoMorph show that **small, human-imperceptible modifications** can fool ML detectors.
 - Human users often do **not rely on logos** when judging page legitimacy.
 - Explainable AI (e.g., LIME) provides visibility into model decisions but has **limited reliability** and can itself be attacked.
-
+- Phishing Website Detection (via ML)
+	- The detection of a phishing webpage can entail the analysis of various elements, e.g.:
+		 • The URL of the webpage (e.g., long URLs are more likely suspicious)  
+			• The HTML (e.g., phishing webpages have many elements hosted under a different domain)  
+			• The ‘reputation’ of a webpage (e.g., a webpage whose domain has been active for a long time, or that is indexed in Google, is likely benign)  
+			• The visual representation (through reference-based detectors)
+ * Do feature-based detectors work?
+	 * It is possible to develop good ML-based detectors by analysing various types of “features” (URL-based, HTML-based, or a combination thereof) and by using diverse types of ML algorithms, such as random forests (RF), logistic regression (LR), or convolutional neural networks (CN)
+		 * Limitiation: extremly high consumption of resources
+* ML methods are typically considered as black boxes
+	* They are so complex, that it is hard for a human to explain what led the ML model to  
+		produce any given output
 ---
 
 ## Connections to Earlier Material
@@ -41,7 +52,14 @@ aliases:
 - What would a defense look like that is robust against both ML evasion and human fallibility?
 - Could browser vendors enforce rendering constraints that reduce adversarial logo attacks?
 - How transferable are adversarial perturbations between different ML architectures?
-
+- Which features are used by ML based phising website detectors?
+	-  HTML structure(elements hosted under different domains)
+	- The reputation of the webpage(e.g. Google indexing age)
+	- The length and structure of the URL.
+* What is a major limitiation of refrence-based(visual simularity) detectors?
+	* They only work on websites included in their "protected" refrence list 
+*  Under what condition is an adversiarial atttack against a logo detector most effective?
+	* When the attacker and defender use the exact sam Deep Learning model.
 ---
 
 ## Diagrams / Examples / Code

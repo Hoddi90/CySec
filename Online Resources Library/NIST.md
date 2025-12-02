@@ -11,15 +11,15 @@ aliases:
 ---
 
 
-**URL:** [https://nvd.nist.gov]  
+**URL:** https://nvd.nist.gov
 
-**Type:** [Database]  
+**Type:** Database
 
 **Brief Description:**  
-- [CVE Vulnerability database]
+- CVE Vulnerability database
 
 **Relevance to Course:**  
-- [Contains publicly disclosed weaknesses in computer related software]
+- Contains publicly disclosed weaknesses in computer related software
 
 **Keywords / Tags:**  
 `[networking]` `[malware]` `[privacy]` `[tools]` 

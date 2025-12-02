@@ -11,15 +11,15 @@ aliases:
 ---
 
 
-**URL:** [https://www.cisecurity.org/cis-benchmarks]  
+**URL:** https://www.cisecurity.org/cis-benchmarks
 
-**Type:** [Docs / Tutorial / Database]  
+**Type:** Docs / Tutorial / Database  
 
 **Brief Description:**  
-- [Contains security hardened configuration templates for different network connected devices/browser/software]
+- Contains security hardened configuration templates for different network connected devices/browser/software
 
 **Relevance to Course:**  
-- [Guide for increasing the security of our devices, whatever they might be]
+- Guide for increasing the security of our devices, whatever they might be
 
 **Keywords / Tags:**  
-`[networking]` `[malware]` `[privacy]` `[tools]`
+`[networking]`  `[privacy]` `[tools]`
