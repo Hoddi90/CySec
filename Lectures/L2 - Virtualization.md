@@ -19,23 +19,23 @@ We have 5 different virtualization methods.
 
 3.       **Hardware-Assisted virtualization** which leverages special CPU instructions e.g. Intel VT-x and AMD-V, to accelerate virtualization.
 
-4.       **OS-level virtualization (Containerization)** which shares the host OS kernel but isolates applications in “containers”. Thus, each container has its own isolated user space, procescesses, file system, and network interfaces. It focuses on isolating applications and their dependencies, not the entire operating system. It is extremely lightweight and fast startaup with extremely efficient resource utilization (no separate OS kernel per container), highly portable, and thusly ideal for microservices and continuous integration/delivery (CI/CD). However, a shared kernel is a single point of failure and all containers must run on the same host OS kernel (linux containers on Linux only).
+4.       **OS-level virtualization (Containerization)** which shares the host OS kernel but isolates applications in “containers”. Thus, each container has its own isolated user space, processes, file system, and network interfaces. It focuses on isolating applications and their dependencies, not the entire operating system. It is extremely lightweight and fast start up with extremely efficient resource utilization (no separate OS kernel per container), highly portable, and thusly ideal for microservices and continuous integration/delivery (CI/CD). However, a shared kernel is a single point of failure and all containers must run on the same host OS kernel (linux containers on Linux only).
 
-5.       **Emulation** which simulates an entire hardware platform, often for different CPU architechtures. The guest code is translated on the fly to run on the host’s native architechture. Frequently used to play retro games. The guest software needs no modifications. However, it has extremely high performance overhead, is highly resource-intensive. It is primarily used when virtualization is not an option due to fundamental architechtural differences. Rarely used for general-purpose server consolidation or cloud infrastructure due to low performance.
+5.       **Emulation** which simulates an entire hardware platform, often for different CPU architectures. The guest code is translated on the fly to run on the host’s native architecture. Frequently used to play retro games. The guest software needs no modifications. However, it has extremely high performance overhead, is highly resource-intensive. It is primarily used when virtualization is not an option due to fundamental architectural differences. Rarely used for general-purpose server consolidation or cloud infrastructure due to low performance.
 
 Virtualization introduces new security challenges
 
 1.       **VM/Container Escape** where breaking out of the guest OS comprimises the host/hypervisor.
 
-2.       **Hypervisor vulnerabilites** wher falws in the core virtualization can affect all guests, a single point of failure.
+2.       **Hypervisor vulnerabilities** where flaws in the core virtualization can affect all guests, a single point of failure.
 
-3.       **Resource exhaustion (DoS)** where ong guest excessivley consumes the host’s resources, starving others
+3.       **Resource exhaustion (DoS)** where a guest excessively consumes the host’s resources, starving others
 
 4.       **Management Plane security** where compromise of virtualization management tools gives full control.
 
 5.       **Insecure Images/Templates** where a guest OS is deployed with known vulnerabilities or misconfigurations
 
-A **type 1 hypervisor** (bare metal) is the most secure virtualization due to it’s strong isolation and small attack surface since it is an indepentent OS. However, if the hypervisor has a bug, it will impact all VMs, thus making management tools a high value target for attackers.
+A **type 1 hypervisor** (bare metal) is the most secure virtualization due to it’s strong isolation and small attack surface since it is an independent OS. However, if the hypervisor has a bug, it will impact all VMs, thus making management tools a high value target for attackers.
 
 A **type 2 hypervisor** hosted hypervisor()has good isolation between VMs and leverages host OS security tools (AV, firewall) but has a larger attack surface. It’s interlink with the host OS makes it reliant on the host’s security being up to date and it has weaker isolation overall than type 1.
 
