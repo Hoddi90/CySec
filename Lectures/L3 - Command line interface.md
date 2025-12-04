@@ -6,6 +6,7 @@ aliases:
 ---
 
 
+
 Further research
 
 1. How can you prevent wildcard injection attacks, such as the one with rm * shown in the slides?

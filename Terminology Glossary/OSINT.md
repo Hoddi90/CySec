@@ -1,0 +1,1 @@
+OSINT = Open Source intelligence. It is the practice of collecting, analyzing, and making decisions based on information that is publicly available and legally accessible, even if you have to pay for it. The skill lies in aggregating and analyzing the publicly available data.

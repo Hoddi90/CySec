@@ -1,4 +1,9 @@
-
+---
+tags:
+  - Category/Lecture-Notes
+aliases:
+  - Lecture-Note
+---
 HTTP was invented to share static documents. It was designed to be **stateless** and **open by default**. Today we use this same protocol for banking, healthcare, and critical infrastructure. We are forcing a protocol designed for sharing to perform tasks requiring secrecy and rigid control.
 
 **The golden rule of web security:** **“Never trust the client.”** The client is easily compromised. **All security validation must happen on the server.**
@@ -133,3 +138,47 @@ When an application must legitimately access arbitrary public URLs—such as for
 - Use safe formats (JSON instead of Java serialization/pickle)
 - Integrity checks (signing/HMAC) on serialized data
 - Run deserialization in sandboxed/low-privilege context if unavoidable
+
+Lecture Title
+
+**Date:** {{26.11.2025}}
+**Created:** {{02.12.2025}}
+
+---
+
+## Key Concepts & Takeaways
+
+- [Placeholder]
+- [Placeholder]
+- [Placeholder]
+
+---
+
+## Connections to Earlier Material
+
+- [New topic] → relates to [old topic] because…
+- [ ]
+
+---
+
+## Questions for Discussion / Research
+
+- [Placeholder]
+- [Placeholder]
+- [Placeholder]
+
+---
+
+## Diagrams / Examples / Code
+
+### Diagram / Example
+- [Short description]
+
+```python
+[ASCII sketch or notes about diagram]
+# paste code example
+Code Snippet
+lang
+Copy code
+# paste code example
+```

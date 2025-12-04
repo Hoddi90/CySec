@@ -1,0 +1,4 @@
+- A sock puppet is fake online identity to research others online anonymously e.g. on LinkedIn.
+- A sock puppet generally has a fake name and an AI generated avatar.
+- It is created weeks or months before  use to appear aged and legitimate.
+- Verified via Burner Phones or VOIP for SMS verification.
