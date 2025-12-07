@@ -1,0 +1,3 @@
+
+- Ret2libc is is an exploitation technique used when an attacker cannot inject and execute their own shellcode—for example, when protections like **non-executable stacks (NX)** prevent running code from writable memory.  Instead of injecting code, the attacker **reuses existing, legitimate code in the process’s address space**, typically functions from the standard C library (libc).
+- We can take advantage of ROP and ret2libc to do things like getting code execution on remote target by sending malicious payload and executing it using system function from libc.

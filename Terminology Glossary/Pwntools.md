@@ -1,0 +1,2 @@
+- **Pwntools streamlines exploitation** by providing utilities that _automatically convert addresses to the proper binary format, send payloads, and check outputs_, reducing the chance of low-level mistakes and simplifying complex exploit development.
+- **It abstracts networking and process interaction**, allowing you to focus on exploit logic while Pwntools handles tasks like packing data, managing I/O with the target, and automating multi-stage interactions.
